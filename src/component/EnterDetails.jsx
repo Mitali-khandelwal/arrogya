@@ -36,7 +36,7 @@ padding: '0 30px',display: 'flex',gap:'20px',flexDirection: 'column',alignConten
 
 <Box
 sx={{display: 'flex' ,justifyContent:'space-between', 
-fontFamily: 'Inter',fontStyle: 'normal',fontWeight: '300',fontSize: '22px',lineHeight: '29px',color: '#333333', marginBottom: '15px'  , 
+fontFamily: 'Inter',fontStyle: 'normal',fontWeight: '300',fontSize: '22px',lineHeight: '29px',color: '#333333', marginBottom: '15px',
 width:'80%'}}
 >
 
@@ -46,7 +46,6 @@ width:'80%'}}
   fontWeight: '600',
   fontSize: '24px',
   marginLeft: '10%',
-
   // lineHeight: '29px',
   color: '#1479FF'}}>Personal Details</Box>
 <Box sx={{
@@ -64,19 +63,19 @@ fontFamily: 'Inter',fontStyle: 'normal',fontWeight: '300',fontSize: '22px',lineH
 width:'80%'}}
 >
 <Box sx={{display:'flex'}}>
-<Box sx={{display:'flex',fontSize:'20px',border:'2px solid red',width:'200px'}}>Mobile Number<Typography sx={{color:'red',fontSize:'15px'}}>*</Typography></Box>
+<Box sx={{display:'flex',fontSize:'20px',width:'200px',justifyContent:'end'}}>Mobile Number<Typography sx={{color:'red',fontSize:'15px'}}>*</Typography></Box>
           
 <Box sx = {{marginLeft : '12px' , border: 'none' }}>
   <TextField  sx={{  border:'none' , height: '15px' , input: {
             borderRadius:'7px',
             background: "white",
-           marginLeft: '12px'
+           
           } }} variant="outlined"></TextField>
 </Box >
 </Box>
 
 
-<Box sx={{display:'flex',border:'1px solid red'}}>
+<Box sx={{display:'flex'}}>
 <Box sx={{display:'flex',fontSize:'20px'}}>Account Number<Typography sx={{color:'red',fontSize:'15px'}}>*</Typography></Box>
 <Box sx = {{marginLeft : '15px'}}>
   <TextField  sx={{  border:'none' , height: '15px' , input: {
@@ -94,7 +93,7 @@ width:'80%'
 
 }}>
 <Box sx={{display:'flex'}}>
-<Box sx={{display:'flex',fontSize:'20px',width:'200px'}}>Full Name<Typography sx={{color:'red',fontSize:'15px'}}>*</Typography></Box>
+<Box sx={{display:'flex',fontSize:'20px',width:'200px',justifyContent:'end'}}>Full Name<Typography sx={{color:'red',fontSize:'15px'}}>*</Typography></Box>
 <Box sx = {{marginLeft : '15px'}}>
   <TextField  sx={{  border:'none' , height: '15px' , input: {
             borderRadius:'7px',
@@ -122,7 +121,7 @@ width:'80%'
 
 }}>
 <Box sx={{display:'flex'}}>
-<Box sx={{display:'flex',fontSize:'20px'}}>Specialisation<Typography sx={{color:'red',fontSize:'15px'}}>*</Typography></Box>
+<Box sx={{display:'flex',fontSize:'20px',width:'200px',justifyContent:'end'}}>Specialisation<Typography sx={{color:'red',fontSize:'15px'}}>*</Typography></Box>
 <Box sx = {{marginLeft : '15px'}}>
   <TextField  sx={{  border:'none' , height: '15px' , input: {
             borderRadius:'7px',
@@ -150,7 +149,7 @@ width:'80%'
 
 }}>
 <Box sx={{display:'flex'}}>
-<Box sx={{display:'flex',fontSize:'20px'}}>Licence Number<Typography sx={{color:'red',fontSize:'15px'}}>*</Typography></Box>
+<Box sx={{display:'flex',fontSize:'20px',width:'200px',justifyContent:'end'}}>Licence Number<Typography sx={{color:'red',fontSize:'15px'}}>*</Typography></Box>
 <Box sx = {{marginLeft : '15px'}}>
   <TextField  sx={{  border:'none' , height: '15px' ,input: {
             borderRadius:'7px',
@@ -179,7 +178,7 @@ width:'80%'
 
 }}>
 <Box sx={{display:'flex'}}>
-<Box sx={{display:'flex',fontSize:'20px'}}>E-Mail<Typography sx={{color:'red',fontSize:'15px'}}>*</Typography></Box>
+<Box sx={{display:'flex',fontSize:'20px',width:'200px',justifyContent:'end'}}>E-Mail<Typography sx={{color:'red',fontSize:'15px'}}>*</Typography></Box>
 <Box sx = {{marginLeft : '15px'}}>
   <TextField  sx={{  border:'none' , height: '15px' 
 , input: {
@@ -211,8 +210,8 @@ width:'80%'
 
 }}>
 <Box sx={{display:'flex'}}>
-<Box sx={{display:'flex',fontSize:'20px'}}>Address<Typography sx={{color:'red',fontSize:'15px'}}>*</Typography></Box>
-<Box sx = {{}}>
+<Box sx={{display:'flex',fontSize:'20px',width:'200px',justifyContent:'end'}}>Address<Typography sx={{color:'red',fontSize:'15px'}}>*</Typography></Box>
+<Box sx = {{marginLeft:'15px'}}>
   <TextField  sx={{  border:'none' , height: '15px'
 ,input: {
   borderRadius:'7px',
@@ -233,11 +232,11 @@ width:'80%'
 </Box>
 </Box>
 
-<Box  sx={{color: 'grey'}}><input type="checkbox" /> I accept following  <Typography sx={{color:'blue' ,  borderBottom: '1px solid blue' , width: '100%'}}>Terms & Conditions</Typography>   </Box>
+<Box  sx={{color: 'grey',display:'flex',width:'70%',marginTop:'20px'}}><input type="checkbox" /> I accept following  <Typography sx={{color:'blue' ,borderBottom: '1px solid blue'}}>Terms & Conditions</Typography></Box>
 
 
 <Box sx={{display:'flex',justifyContent:'center'}}>
-<Button variant="contained" sx={{width:"100%",fontWeight:'600',fontSize:'24px',borderRadius:'30px'}}>Creat Account</Button>
+<Button variant="contained" sx={{width:"100%",fontWeight:'600',fontSize:'24px',borderRadius:'30px'}}>Create Account</Button>
 
 </Box>
    </Box>
